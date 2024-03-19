@@ -55,10 +55,16 @@ footer a {
     height: fit-content;
 }
 
+footer a:hover img{
+    transition: 0.2s;
+    opacity: 1;
+}
+
 footer a img{
     width: 20px;
     margin-right: 32px;
     opacity: 0.7;
+    transition: 0.2s;
 }
 
 .footer__gap{
