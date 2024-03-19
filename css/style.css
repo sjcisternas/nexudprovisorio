@@ -27,19 +27,15 @@ body{
 }
 
 .main__logo{
-    width:13vw;
-    margin-bottom: 10vh;
+    width:25vw;
 }
 
 .main__slogan{
     letter-spacing: 4px;
     color: #EBF0E9;
-    font-size: 6vh;
+    font-size: 3vh;
     font-weight: 300;
-    -webkit-animation: opacity_logo 2s ease-in-out infinite;/* Safari 4+ */
-    -moz-animation: opacity_logo 2s ease-in-out infinite;/* Fx 5+ */
-    -o-animation: opacity_logo 2s ease-in-out infinite;/* Opera 12+ */
-    animation: opacity_logo 2s ease-in-out infinite;/* IE 10+, Fx 29+ */
+    opacity: 0.7;
 }
 
 footer{
@@ -83,16 +79,4 @@ footer a img{
     margin: 0;
     height: fit-content;
     opacity: 0.7;
-}
-
-@keyframes opacity_logo{
-    0%{
-        opacity: 1;
-    }
-    50%{
-        opacity: 0.5;
-    }
-    100%{
-        opacity: 1;
-    }
 }
