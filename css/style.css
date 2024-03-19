@@ -165,7 +165,7 @@ footer{
 
 /* MOBILE 250px-320px */
 
-@media (max-width: 425px) {
+@media (max-width: 320px) {
     .main__slogan{
         font-size: 1.8vh;
     }
