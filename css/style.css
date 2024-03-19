@@ -18,8 +18,8 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    margin-top: 18vh;
-    margin-bottom: 33vh;
+    margin-top: 2vh;
+    margin-bottom: 30vh;
 }
 
 .main__titulo{
@@ -27,7 +27,8 @@ body{
 }
 
 .main__logo{
-    width:25vw;
+    width:28vw;
+    margin-bottom: 18vh;
 }
 
 .main__slogan{
@@ -35,7 +36,7 @@ body{
     color: #EBF0E9;
     font-size: 3vh;
     font-weight: 300;
-    opacity: 0.7;
+    opacity: 0.6;
 }
 
 footer{
